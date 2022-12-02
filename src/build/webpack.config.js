@@ -9,12 +9,12 @@ const RemovePlugin = require("remove-files-webpack-plugin");
 var config = {
 	entry: {
 		// Define the entry points of our application (can be multiple for different sections of a website)
-		"theme-name": ["./src/assets/sass/main.scss", "./src/assets/js/main.js"],
+		main: ["./src/scss/index.scss", "./src/js/index.js"],
 	},
 	output: {
 		// Define the destination directory and filenames of compiled resources
 		filename: "js/[name].min.js",
-		path: path.resolve(__dirname, "./../../assets"),
+		path: path.resolve(__dirname, "./../../dist"),
 	},
 	module: {
 		rules: [
@@ -64,7 +64,7 @@ var config = {
 			// Removes files and folders before and after compilation
 			before: {
 				// Before compilation permanently removes entire './assets' folder.
-				include: ["./assets"],
+				include: ["./dist"],
 			},
 			watch: {
 				// parameters for "before watch compilation" stage.
@@ -78,20 +78,25 @@ var config = {
 			filename: "css/[name].min.css",
 			chunkFilename: "[id].css",
 		}),
-		new CopyPlugin({
-			patterns: [{ from: "./src/assets/images/", to: "./images" }],
-		}),
+		/* new CopyPlugin({
+			patterns: [
+				{ from: "./src/images/", to: "./images" },
+				{ from: "./src/js/html5shiv.js", to: "./js/" },
+			],
+		}), */
 	],
 };
 
 module.exports = (env, argv) => {
 	if (argv.mode === "development") {
 		// only for development mode
+
 		config.devtool = "source-map"; // Define development options
 	}
 
 	if (argv.mode === "production") {
 		// only for production mode
+
 		config.optimization = {
 			minimize: true,
 			minimizer: [new CssMinimizerPlugin(), new TerserPlugin()],
