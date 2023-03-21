@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-BoldItalic.eot');
+    src: url('NeueHaasUnicaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-BoldItalic.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-BoldItalic.woff') format('woff'),
+        url('NeueHaasUnicaPro-BoldItalic.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-BoldItalic.svg#NeueHaasUnicaPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-BlackIt.eot');
+    src: url('NeueHaasUnicaPro-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-BlackIt.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-BlackIt.woff') format('woff'),
+        url('NeueHaasUnicaPro-BlackIt.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-BlackIt.svg#NeueHaasUnicaPro-BlackIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-HeavyIt.eot');
+    src: url('NeueHaasUnicaPro-HeavyIt.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-HeavyIt.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-HeavyIt.woff') format('woff'),
+        url('NeueHaasUnicaPro-HeavyIt.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-HeavyIt.svg#NeueHaasUnicaPro-HeavyIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-Heavy.eot');
+    src: url('NeueHaasUnicaPro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-Heavy.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-Heavy.woff') format('woff'),
+        url('NeueHaasUnicaPro-Heavy.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-Heavy.svg#NeueHaasUnicaPro-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-Black.eot');
+    src: url('NeueHaasUnicaPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-Black.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-Black.woff') format('woff'),
+        url('NeueHaasUnicaPro-Black.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-Black.svg#NeueHaasUnicaPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-Bold.eot');
+    src: url('NeueHaasUnicaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-Bold.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-Bold.woff') format('woff'),
+        url('NeueHaasUnicaPro-Bold.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-Bold.svg#NeueHaasUnicaPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-MediumIt.eot');
+    src: url('NeueHaasUnicaPro-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-MediumIt.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-MediumIt.woff') format('woff'),
+        url('NeueHaasUnicaPro-MediumIt.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-MediumIt.svg#NeueHaasUnicaPro-MediumIt') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-LightIt.eot');
+    src: url('NeueHaasUnicaPro-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-LightIt.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-LightIt.woff') format('woff'),
+        url('NeueHaasUnicaPro-LightIt.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-LightIt.svg#NeueHaasUnicaPro-LightIt') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-Italic.eot');
+    src: url('NeueHaasUnicaPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-Italic.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-Italic.woff') format('woff'),
+        url('NeueHaasUnicaPro-Italic.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-Italic.svg#NeueHaasUnicaPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-Thin.eot');
+    src: url('NeueHaasUnicaPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-Thin.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-Thin.woff') format('woff'),
+        url('NeueHaasUnicaPro-Thin.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-Thin.svg#NeueHaasUnicaPro-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-Light.eot');
+    src: url('NeueHaasUnicaPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-Light.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-Light.woff') format('woff'),
+        url('NeueHaasUnicaPro-Light.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-Light.svg#NeueHaasUnicaPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-Regular.eot');
+    src: url('NeueHaasUnicaPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-Regular.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-Regular.woff') format('woff'),
+        url('NeueHaasUnicaPro-Regular.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-Regular.svg#NeueHaasUnicaPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-Medium.eot');
+    src: url('NeueHaasUnicaPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-Medium.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-Medium.woff') format('woff'),
+        url('NeueHaasUnicaPro-Medium.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-Medium.svg#NeueHaasUnicaPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-ThinItalic.eot');
+    src: url('NeueHaasUnicaPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-ThinItalic.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-ThinItalic.woff') format('woff'),
+        url('NeueHaasUnicaPro-ThinItalic.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-ThinItalic.svg#NeueHaasUnicaPro-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-UltLightIt.eot');
+    src: url('NeueHaasUnicaPro-UltLightIt.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-UltLightIt.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-UltLightIt.woff') format('woff'),
+        url('NeueHaasUnicaPro-UltLightIt.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-UltLightIt.svg#NeueHaasUnicaPro-UltLightIt') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro XBlack';
+    src: url('NeueHaasUnicaPro-XBlack.eot');
+    src: url('NeueHaasUnicaPro-XBlack.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-XBlack.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-XBlack.woff') format('woff'),
+        url('NeueHaasUnicaPro-XBlack.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-XBlack.svg#NeueHaasUnicaPro-XBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro XBlack';
+    src: url('NeueHaasUnicaPro-XBlackIt.eot');
+    src: url('NeueHaasUnicaPro-XBlackIt.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-XBlackIt.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-XBlackIt.woff') format('woff'),
+        url('NeueHaasUnicaPro-XBlackIt.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-XBlackIt.svg#NeueHaasUnicaPro-XBlackIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url('NeueHaasUnicaPro-UltraLight.eot');
+    src: url('NeueHaasUnicaPro-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('NeueHaasUnicaPro-UltraLight.woff2') format('woff2'),
+        url('NeueHaasUnicaPro-UltraLight.woff') format('woff'),
+        url('NeueHaasUnicaPro-UltraLight.ttf') format('truetype'),
+        url('NeueHaasUnicaPro-UltraLight.svg#NeueHaasUnicaPro-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,2 +1,8 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+// vendors
+@import "./vendors/webfonts";
+
+// landing page
+@import "./landingpageCSS/landingpage";

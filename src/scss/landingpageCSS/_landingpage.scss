@@ -1,0 +1,116 @@
+body {
+	text-rendering: geometricPrecision;
+}
+
+.landing-page {
+	background: #000;
+	color: $white;
+	text-align: center;
+	overflow: hidden;
+	font-family: 'Neue Haas Unica Pro', Arial, sans-serif;
+
+	.brand-logo {
+		display: inline-block;
+		width: 400px;
+		margin-top: 75px;
+		margin-bottom: 40px;
+
+		@include media-breakpoint-up(xxl) {
+			margin-top: 130px;
+		}
+
+		@include media-breakpoint-down(md) {
+			width: 300px;
+		}
+	}
+
+	h1 {
+		font-weight: 500;
+		font-size: 70px;
+		line-height: 84px;
+
+		@include media-breakpoint-down(md) {
+			font-size: 40px;
+			line-height: normal;
+		}
+	}
+
+	h6 {
+		font-weight: 300;
+		font-size: 22px;
+		line-height: 26.4px;
+	}
+
+	.lead-text {
+		font-size: 30px;
+		line-height: 39px;
+		font-weight: 300;
+
+		@include media-breakpoint-down(md) {
+			font-size: 25px;
+			line-height: 28px;
+		}
+	}
+
+	.text {
+		&-small {
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+
+	.comming-soon {
+		margin-top: 40px;
+	}
+
+	.email {
+		position: absolute;
+		z-index: 1;
+		bottom: 72px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+
+		p {
+			margin-bottom: 0;
+		}
+
+		a {
+			color: $white;
+		}
+
+		@include media-breakpoint-down(xxl) {
+			bottom: 30px;
+		}
+	}
+
+	.filter {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		left: 0px;
+		top: 0px;
+		z-index: -1;
+
+		background: linear-gradient(180deg, rgba(15, 57, 202, 0.95) 0%, rgba(23, 24, 29, 0.6) 98.44%);
+		opacity: 0.5;
+	}
+
+	video {
+		left: 0;
+		position: absolute;
+		top: 240px;
+		width: 100vw;
+		z-index: -2;
+
+		@include media-breakpoint-up(xxl) {
+			top: 192px;
+		}
+
+		@include media-breakpoint-down(md) {
+			bottom: 0;
+			top: unset;
+		}
+	}
+}

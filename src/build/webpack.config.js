@@ -53,7 +53,7 @@ var config = {
 				type: "asset/resource",
 				generator: {
 					//publicPath: '../fonts/',
-					filename: "./assets/fonts/[hash][ext][query]",
+					filename: "./fonts/[hash][ext][query]",
 				},
 			},
 		],
