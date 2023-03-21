@@ -62,6 +62,11 @@ body {
 
 	.comming-soon {
 		margin-top: 40px;
+
+		@media (min-height:768px) {
+			// border: 1px solid red;
+			// margin-top: 110px;
+		}
 	}
 
 	.email {
@@ -104,13 +109,20 @@ body {
 		width: 100vw;
 		z-index: -2;
 
+
 		@include media-breakpoint-up(xxl) {
 			top: 192px;
 		}
 
+
 		@include media-breakpoint-down(md) {
 			bottom: 0;
 			top: unset;
+		}
+
+		@media (min-height:768px) {
+			top: unset;
+			bottom: -275px;
 		}
 	}
 }
