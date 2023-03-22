@@ -120,7 +120,12 @@ body {
 			top: unset;
 		}
 
-		@media (min-height:768px) {
+		@media (min-width:768px) and (max-width:1199px) and (max-height:1199px) {
+			bottom: -75px;
+			top: unset;
+		}
+
+		@media (min-width:1200px) and (min-height:780px) {
 			top: unset;
 			bottom: -275px;
 		}
