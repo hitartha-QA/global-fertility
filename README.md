@@ -23,11 +23,13 @@ For production `npm run build`
 WEBPACK/
 ├── dist/
 │   ├── css/
-│   └── js/
+│   ├── js/
+│   └── fonts/
 ├── images/
 └── src/
     ├── build/
     ├── js/
+    ├── fonts
     └── scss/
 
 </pre>
