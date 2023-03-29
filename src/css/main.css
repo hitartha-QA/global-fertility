@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-fluid {
+  @apply h-full object-cover w-full
+}
+
+.transform-50 {
+  transform: translate(-50%, -50%);
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
