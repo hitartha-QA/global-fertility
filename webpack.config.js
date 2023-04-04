@@ -57,6 +57,15 @@ module.exports = {
           }
         ]
       },
+      {
+        //This rule is here to include font awesome deps as separate font
+        test: /\.(svg|eot|woff|woff2|ttf)$/,
+        type: "asset/resource",
+        generator: {
+          //publicPath: '../fonts/',
+          filename: "./fonts/[hash][ext][query]",
+        },
+      },
     ]
   },
 
