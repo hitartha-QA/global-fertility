@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./vendor/vendor.css";
+
+body {
+  font-family: 'Neue Haas Unica Pro', Arial, sans-serif;
+}
 
 .img-fluid {
   @apply h-full object-cover w-full
