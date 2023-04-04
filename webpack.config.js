@@ -1,18 +1,20 @@
 // Webpack uses this to work with directories
 const path = require('path');
-
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const RemovePlugin = require("remove-files-webpack-plugin");
 
 module.exports = {
 
   // https://webpack.js.org/concepts/#entry
-  entry: './src/js/main.js',
+  entry: {
+    main: ['./src/css/main.css', './src/js/main.js']
+  },
 
   // https://webpack.js.org/concepts/output/
   output: {
     publicPath: '',
     path: path.resolve(__dirname, 'dist'),
-    filename: './dist.bundle.js',
+    filename: './[name].min.js',
     assetModuleFilename: 'images/[hash][ext][query]'
   },
 
@@ -44,14 +46,14 @@ module.exports = {
           },
           {
             loader: 'postcss-loader',
-            options: {
+            /* options: {
               postcssOptions: {
                 plugins: [
                   require('tailwindcss'),
                   require('autoprefixer'),
                 ],
               },
-            },
+            }, */
           }
         ]
       },
@@ -60,8 +62,21 @@ module.exports = {
 
   // https://webpack.js.org/concepts/plugins/
   plugins: [
+    new RemovePlugin({
+      // Removes files and folders before and after compilation
+      before: {
+        // Before compilation permanently removes entire './assets' folder.
+        include: ["./dist"],
+      },
+      watch: {
+        // parameters for "before watch compilation" stage.
+      },
+      after: {
+        // parameters for "after normal and watch compilation" stage.
+      },
+    }),
     new MiniCssExtractPlugin({
-      filename: "dist.bundle.css"
+      filename: "[name].min.css"
     })
   ]
 };
