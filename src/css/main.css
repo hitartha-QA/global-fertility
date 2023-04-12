@@ -23,3 +23,13 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
+.video-bg {
+  @apply absolute z-[-2] left-0 bottom-0 xl:bottom-[unset] xl:top-[135px] w-[100vw]
+}
+
+@media (min-width: 768px) and (max-width: 1199px) and (max-height: 1199px){
+  .video-bg {
+    @apply bottom-[-75px] top-[unset]
+  }
+}
